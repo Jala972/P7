@@ -1,0 +1,27 @@
+.HomeContainer {
+  position: absolute;
+  width: 1240px;
+  height: 1095px;
+  left: 100px;
+  top: 171px;
+  margin: auto;
+}
+
+/* .SectionOneContainer {
+  position: absolute;
+  width: 1240px;
+  height: 223px;
+  left: 100px;
+  top: 171px;
+}
+
+.GalleryContainer {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #f7f7f7;
+  border-radius: 25px;
+} */

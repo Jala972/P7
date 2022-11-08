@@ -1,0 +1,12 @@
+.GalleryContainer {
+  margin-top: 50px;
+
+  height: auto;
+  width: 1240px;
+  border-radius: 25px;
+  background: #f7f7f7;
+  border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

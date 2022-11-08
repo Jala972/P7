@@ -1,0 +1,18 @@
+.SectionAboutContainer {
+  height: 1095px;
+  width: 1240px;
+  left: 100px;
+  top: 171px;
+  border-radius: 25px;
+}
+
+.AboutTextContainer {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  border-radius: 5px;
+
+  margin: auto;
+
+  top: 420px;
+}

@@ -1,0 +1,48 @@
+.SectionAboutContainer {
+  position: absolute;
+  width: 1240px;
+  height: 223px;
+  left: 100px;
+  top: 171px;
+}
+
+.SectionAboutMaskGroup {
+  width: 1240px;
+  height: 224px;
+  margin: auto;
+}
+
+.BackgroundSectionAbout1 {
+  position: relative;
+  bottom: -1px;
+  width: 1240px;
+  height: 224px;
+  background: #000000;
+  mix-blend-mode: darken;
+  opacity: 0.3;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.ImgSectionAbout {
+  position: relative;
+  width: 1240px;
+  height: 224px;
+  top: -227px;
+  border-radius: 25px;
+  z-index: 1;
+
+  /* background: url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg); */
+}
+
+.BackgroundSectionAbout2 {
+  position: relative;
+  bottom: 455px;
+  width: 1240px;
+  height: 223px;
+  background: #000000;
+  mix-blend-mode: darken;
+  opacity: 0.3;
+  border-radius: 25px;
+  z-index: 1;
+}

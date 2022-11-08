@@ -1,0 +1,71 @@
+.HeaderContainer {
+  position: relative;
+  width: 1240px;
+  height: 68px;
+  top: 40px;
+  margin: auto;
+}
+
+.NavContainer {
+  height: 34px;
+  width: 309px;
+  left: 931px;
+  top: 17px;
+  border-radius: nullpx;
+}
+
+.HeaderLogo {
+  height: 68px;
+  width: 210.32154846191406px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  height: 68px;
+  width: 210.32154846191406px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.AcceuilStyle {
+  position: absolute;
+  left: 75.08%;
+  right: 13.95%;
+  top: 25%;
+  bottom: 25%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+
+  /* or 34px */
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #ff6060;
+}
+
+.AboutStyle {
+  position: absolute;
+  left: 90.65%;
+  right: 0%;
+  top: 25%;
+  bottom: 25%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+
+  /* or 34px */
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  color: #ff6060;
+}
