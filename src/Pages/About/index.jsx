@@ -7,7 +7,7 @@ import '../../Utils/Style/about.css'
 
 function About() {
   return (
-    <div>
+    <div classeName="AboutContainer">
       <div classename="SectionAboutContainer">
         <SectionAbout src={SectionAbout} />
       </div>

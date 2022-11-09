@@ -1,13 +1,14 @@
-.HomeContainer {
-  position: absolute;
-  width: 1240px;
-  height: 1095px;
-  left: 100px;
-  top: 171px;
-  margin: auto;
-}
+@media screen and (min-width: 992px) {
+  .HomeContainer {
+    position: relative;
+    width: 1240px;
+    height: 1095px;
+    left: -0px;
+    top: 91px;
+    margin: auto;
+  }
 
-/* .SectionOneContainer {
+  /* .SectionOneContainer {
   position: absolute;
   width: 1240px;
   height: 223px;
@@ -25,3 +26,14 @@
   background: #f7f7f7;
   border-radius: 25px;
 } */
+}
+@media screen and (max-width: 600px) {
+  .HomeContainer {
+    position: relative;
+    width: 336px;
+    height: 938px;
+    left: -0px;
+    top: 171px;
+    margin: auto;
+  }
+}

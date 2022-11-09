@@ -1,115 +1,268 @@
-.logementContainer {
-  position: relative;
-  width: 1240px;
-  margin: auto;
-  top: 108px;
-}
+@media screen and (min-width: 992px) {
+  .logementContainer {
+    position: relative;
+    width: 1240px;
+    margin: auto;
+    top: 108px;
+  }
 
-.titleNameContainer {
-  position: relative;
-  width: 635px;
-  height: 77px;
-}
+  .titleNameContainer {
+    position: relative;
+    width: 735px;
+    height: 77px;
+  }
 
-.titleCityTagContainer {
-  position: relative;
-  width: 635px;
-  height: 77px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ff6060;
-}
+  .titleCityTagContainer {
+    position: relative;
+    width: 635px;
+    height: 77px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ff6060;
+  }
 
-.nameProfilStarContainer {
-  width: 100px;
-}
-.nameProfilContainer {
-  position: relative;
-  height: 52px;
-  width: 150px;
-  border-radius: nullpx;
-  left: 1110px;
-  top: -90px;
-  display: flex;
-  flex-direction: row;
-}
+  .nameProfilStarContainer {
+    width: 100px;
+  }
+  .nameProfilContainer {
+    position: relative;
+    height: 52px;
+    width: 150px;
+    border-radius: nullpx;
+    left: 1110px;
+    top: -90px;
+    display: flex;
+    flex-direction: row;
+  }
 
-.descriptionEquipementContainer {
-  position: relative;
-  width: 1240px;
-  border-radius: 25px;
-  top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ff6060;
-}
+  .descriptionEquipementContainer {
+    height: 52px;
+    width: 1240px;
+    border-radius: 10px;
+    position: relative;
+    right: 180px;
+    top: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ff6060;
+  }
 
-.descriptionContainer {
-  height: 52px;
-  width: 582px;
-  left: 0px;
-  top: 0px;
-  border-radius: 10px;
-}
-.equipementContainer {
-  height: 52px;
-  width: 582px;
-  left: 0px;
-  top: 0px;
-  border-radius: 10px;
-}
+  .descriptionContainer {
+    height: 52px;
+    width: 582px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+  .equipementContainer {
+    height: 52px;
+    width: 582px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
 
-.starContainer {
-  position: relative;
-  left: 1100px;
-  top: -70px;
-  height: 30px;
-  width: 200px;
+  .starContainer {
+    position: relative;
+    left: 1100px;
+    top: -70px;
+    height: 30px;
+    width: 200px;
+  }
+
+  .star {
+    height: 30px;
+    width: 30px;
+    left: 3px;
+    top: 3px;
+    border-radius: 0px;
+  }
+
+  .nameProfil {
+    height: 52px;
+    width: 60px;
+
+    left: 1170px;
+    top: 573px;
+    border-radius: nullpx;
+    text-align: end;
+  }
+
+  .imgProfilContainer {
+    height: 64px;
+    width: 64px;
+    left: 1275px;
+    top: 567px;
+    border-radius: 0px;
+  }
+
+  .imgProfil {
+    height: 64px;
+    width: 64px;
+    border-radius: 0px;
+  }
+
+  .pProfil {
+    width: 0px;
+  }
+
+  .titleLogement {
+    height: 51px;
+    width: 835px;
+    left: 100px;
+    top: 573px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .locationLogement {
+    height: 26px;
+    width: 176px;
+    left: 100px;
+    top: 624px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .menu-deroulant {
+    position: relative;
+    left: 180px;
+    margin: auto;
+    display: inline-block;
+    height: 47px;
+    width: 1023px;
+    border-radius: 5px;
+    background: #ff6060;
+    border-radius: 5px;
+  }
+  .menu-deroulant > a:after {
+    font-size: 15px;
+    margin-left: 7px;
+    display: inline-block;
+    height: 146px;
+    width: 1023px;
+    left: 0px;
+    top: 38px;
+    border-radius: 5px;
+
+    background: #ff6060;
+  }
+
+  .sous-menu {
+    /* margin-top: var(--hauteur-menu); */
+    width: 100%;
+    text-align: left;
+    background: #f7f7f7;
+    border-radius: 2px;
+    overflow: hidden;
+    max-height: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+    position: relative;
+    top: -107%;
+
+    /* or 34px */
+
+    color: #ff6060;
+  }
+
+  .sous-menu > li > a {
+    height: 50px;
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+
+  @keyframes apparitionSousMenu {
+    0% {
+      /* box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0); */
+    }
+    30% {
+      /* box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3); */
+    }
+    100% {
+      max-height: 50em;
+      /* box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3); */
+    }
+  }
+
+  .menu-deroulant:hover > .sous-menu {
+    animation: apparitionSousMenu 1s forwards;
+  }
+
+  .titleSectionAbout {
+    height: 34px;
+    width: 97px;
+    left: 18.075592041015625px;
+
+    border-radius: nullpx;
+    position: relative;
+    top: -25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+
+    color: #ffffff;
+  }
+
+  .titleSectionAbout::before {
+    content: '❯';
+    position: relative;
+    left: 970px;
+  }
+
+  .textSectionAbout {
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+
+    /* or 34px */
+
+    color: #ff6060;
+  }
+
+  @keyframes rotationFleche {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+  .menu-deroulant:hover > a:after {
+    animation: rotationFleche 0.2s linear forwards;
+  }
 }
-
-.star {
-  height: 30px;
-  width: 30px;
-  left: 3px;
-  top: 3px;
-  border-radius: 0px;
-}
-
-.nameProfil {
-  height: 52px;
-  width: 60px;
-
-  left: 1170px;
-  top: 573px;
-  border-radius: nullpx;
-  text-align: end;
-}
-
-.imgProfilContainer {
-  height: 64px;
-  width: 64px;
-  left: 1275px;
-  top: 567px;
-  border-radius: 0px;
-}
-
-.imgProfil {
-  height: 64px;
-  width: 64px;
-  border-radius: 0px;
-}
-
-.pProfil {
-  width: 0px;
+@media screen and (max-width: 600px) {
 }

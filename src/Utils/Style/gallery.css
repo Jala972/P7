@@ -1,12 +1,28 @@
-.GalleryContainer {
-  margin-top: 50px;
+@media screen and (min-width: 992px) {
+  .GalleryContainer {
+    margin-top: 50px;
 
-  height: auto;
-  width: 1240px;
-  border-radius: 25px;
-  background: #f7f7f7;
-  border-radius: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    height: auto;
+    width: 1240px;
+    border-radius: 25px;
+    background: #f7f7f7;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 600px) {
+  .GalleryContainer {
+    position: relative;
+    top: 25px;
+    height: auto;
+    width: 335px;
+    border-radius: 25px;
+
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }

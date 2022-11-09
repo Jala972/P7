@@ -1,18 +1,33 @@
-.SectionAboutContainer {
-  height: 1095px;
-  width: 1240px;
-  left: 100px;
-  top: 171px;
-  border-radius: 25px;
+@media screen and (min-width: 992px) {
+  .AboutContainer {
+    position: relative;
+    width: 1240px;
+    height: 1095px;
+    left: -0px;
+    top: 171px;
+    margin: auto;
+  }
+  .SectionAboutContainer {
+    height: 1095px;
+    width: 1240px;
+    top: 271px;
+    right: 130px;
+    border-radius: 25px;
+    margin: auto;
+    position: absolute;
+  }
+
+  .AboutTextContainer {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    border-radius: 5px;
+
+    margin: auto;
+    left: 20px;
+    top: 480px;
+  }
 }
 
-.AboutTextContainer {
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-  border-radius: 5px;
-
-  margin: auto;
-
-  top: 420px;
+@media screen and (max-width: 600px) {
 }

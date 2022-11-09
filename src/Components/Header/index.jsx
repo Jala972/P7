@@ -8,9 +8,7 @@ function Header() {
   return (
     <div className="HeaderContainer">
       <div className="HeaderLogo">
-        <Link to="/">
-          <img class="Logo" src={KazaLogo} alt="Logo Kaza" />
-        </Link>
+        <img class="LogoKaza" src={KazaLogo} alt="Logo Kaza" />
       </div>
       <div className="NavContainer">
         <Link to="/">
