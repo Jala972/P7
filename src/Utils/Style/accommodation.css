@@ -265,4 +265,161 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .logementContainer {
+    position: relative;
+    width: 335px;
+    margin: auto;
+  }
+
+  .titleNameContainer {
+    position: relative;
+    width: 335px;
+    height: auto;
+  }
+
+  .tagsLogement {
+    height: 18px;
+    width: auto;
+    left: 0px;
+    top: 36px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  /* .titleCityTagContainer {
+    position: relative;
+    width: 635px;
+    height: 77px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ff6060;
+  }
+
+  .nameProfilStarContainer {
+    width: 100px;
+  }
+  .nameProfilContainer {
+    position: relative;
+    height: 52px;
+    width: 150px;
+    border-radius: nullpx;
+    left: 1110px;
+    top: -90px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .descriptionEquipementContainer {
+    height: 52px;
+    width: 1240px;
+    border-radius: 10px;
+    position: relative;
+    right: 180px;
+    top: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ff6060;
+  }
+
+  .descriptionContainer {
+    height: 52px;
+    width: 582px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  }
+  .equipementContainer {
+    height: 52px;
+    width: 582px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+  } */
+
+  .starContainer {
+    position: relative;
+    left: 0px;
+    top: -55px;
+    height: 30px;
+    width: 200px;
+  }
+  /* 
+  .star {
+    height: 15px;
+    width: 15px;
+    left: 1.5px;
+    top: 1.5px;
+    border-radius: 0px;
+  } */
+
+  .nameProfil {
+    position: relative;
+    height: 52px;
+    width: 60px;
+    left: 230px;
+    top: 30px;
+    border-radius: nullpx;
+    text-align: end;
+  }
+
+  .imgProfilContainer {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    left: 300px;
+    top: -20px;
+    border-radius: 0px;
+  }
+
+  .imgProfil {
+    height: 32px;
+    width: 32px;
+    border-radius: 0px;
+  }
+
+  .pProfil {
+    width: 0px;
+  }
+
+  .titleLogement {
+    position: relative;
+    height: 51px;
+    width: 335px;
+    left: 0px;
+    top: 70px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.67px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .locationLogement {
+    position: relative;
+    height: 26px;
+    width: 176px;
+    left: 0px;
+    top: 40px;
+    border-radius: nullpx;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.96px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 }

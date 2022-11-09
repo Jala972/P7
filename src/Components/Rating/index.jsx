@@ -13,7 +13,7 @@ function Stars() {
   // Récupération de la liste des attributs du logement avec .find
   const Logement = apartmentProfiles.find((logement) => logement.id === id)
 
-  // Déclaration de la constante pour récupérer la note du logment
+  // Déclaration de la constante pour récupérer la note du logement
   const starRating = {
     size: 30,
     value: Logement.rating,

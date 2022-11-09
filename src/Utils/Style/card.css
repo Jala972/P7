@@ -62,8 +62,8 @@
 @media screen and (max-width: 600px) {
   .CardWrapper {
     position: relative;
-    height: 340px;
-    width: 340px;
+    height: 255px;
+    width: 335px;
     left: 0px;
     top: -85px;
     border-radius: 0px;
@@ -97,27 +97,22 @@
   }
 
   .CardImage {
-    height: 340px;
-    width: 340px;
-    left: 0px;
-    top: 0px;
-    border-radius: 10px;
-  }
-
-  .Rectangle2 {
     height: 255px;
     width: 335px;
     left: 0px;
     top: 0px;
     border-radius: 10px;
+    /* position: relative; */
+  }
 
+  .Rectangle2 {
+    height: 255px;
+    width: 335px;
+    border-radius: 10px;
     position: absolute;
-    height: 340px;
-    width: 340px;
     left: 0px;
     top: 73px;
     border-radius: 10px;
-
     background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0) 0%,

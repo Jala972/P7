@@ -3,8 +3,8 @@
     position: absolute;
     width: 1240px;
     height: 223px;
-    left: 100px;
-    top: 171px;
+    left: 90px;
+    top: 167px;
   }
 
   .SectionAboutMaskGroup {
@@ -23,6 +23,7 @@
     opacity: 0.3;
     border-radius: 25px;
     z-index: 1;
+    display: block;
   }
 
   .ImgSectionAbout {
@@ -32,6 +33,7 @@
     top: -227px;
     border-radius: 25px;
     z-index: 1;
+    display: block;
 
     /* background: url(eric-muhr-P_XxsdVgtpQ-unsplash.jpg); */
   }
@@ -46,8 +48,64 @@
     opacity: 0.3;
     border-radius: 25px;
     z-index: 1;
+    display: block;
+  }
+  .ImgSectionAbout2 {
+    display: none;
+  }
+  .BackgroundSectionAbout1Mobil {
+    display: none;
+  }
+  .BackgroundSectionAbout2Mobil {
+    display: none;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .SectionAboutContainer {
+    width: 335px;
+    /* height: 223px;
+    left: 90px;
+    top: 167px; */
+  }
+
+  .SectionAboutMaskGroup {
+    width: 1240px;
+    height: 223px;
+    position: relative;
+    top: 60px;
+    left: 11px;
+    /* overflow: hidden; */
+  }
+  .ImgSectionAbout2 {
+    position: relative;
+    left: 0px;
+    width: 336px;
+    height: 223px;
+    top: -223px;
+    display: block;
+  }
+
+  .BackgroundSectionAbout1Mobil {
+    display: block;
+    position: relative;
+    top: 0px;
+  }
+  .BackgroundSectionAbout2Mobil {
+    display: block;
+    position: relative;
+    top: -446px;
+  }
+
+  .BackgroundSectionAbout1 {
+    display: none;
+  }
+
+  .ImgSectionAbout {
+    display: none;
+  }
+
+  .BackgroundSectionAbout2 {
+    display: none;
+  }
 }

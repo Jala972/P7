@@ -124,4 +124,133 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .AboutTextContainer {
+    position: relative;
+    top: 60px;
+  }
+  .menu-deroulant {
+    position: relative;
+    left: 0px;
+    top: 25px;
+    margin: auto;
+    display: inline-block;
+    height: 30px;
+
+    width: 335px;
+    border-radius: 5px;
+    background: #ff6060;
+    border-radius: 5px;
+  }
+  .menu-deroulant > a:after {
+    font-size: 15px;
+    margin-left: 7px;
+    display: inline-block;
+    height: 146px;
+    width: 335px;
+    left: 0px;
+    top: 38px;
+    border-radius: 5px;
+
+    background: #ff6060;
+  }
+
+  .sous-menu {
+    /* margin-top: var(--hauteur-menu); */
+    width: 100%;
+    text-align: left;
+    background: #f7f7f7;
+    border-radius: 2px;
+    overflow: hidden;
+    max-height: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142.6%;
+    position: relative;
+    top: -107%;
+
+    /* or 34px */
+
+    color: #ff6060;
+  }
+
+  .sous-menu > li > a {
+    height: 50px;
+    padding-left: 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+  }
+
+  @keyframes apparitionSousMenu {
+    0% {
+      /* box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0); */
+    }
+    30% {
+      /* box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3); */
+    }
+    100% {
+      max-height: 50em;
+      /* box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3); */
+    }
+  }
+
+  .menu-deroulant:hover > .sous-menu {
+    animation: apparitionSousMenu 1s forwards;
+  }
+
+  .titleSectionAbout {
+    height: 34px;
+    width: 97px;
+
+    border-radius: nullpx;
+    position: relative;
+    right: -10px;
+    top: -10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+
+    color: #ffffff;
+  }
+
+  .titleSectionAbout::before {
+    content: '❯';
+    position: relative;
+    left: 970px;
+  }
+
+  .textSectionAbout {
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142.6%;
+
+    /* or 34px */
+
+    color: #ff6060;
+  }
+
+  @keyframes rotationFleche {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+  .menu-deroulant:hover > a:after {
+    animation: rotationFleche 0.2s linear forwards;
+  }
+
+  .SectionAbout {
+    margin: auto;
+    width: 335px;
+    height: 1024px;
+  }
 }
