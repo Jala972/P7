@@ -1,6 +1,3 @@
-// import PropTypes from 'prop-types'
-// import React, { useState, useEffect } from 'react'
-
 import { useParams } from 'react-router-dom'
 import apartmentProfiles from '../../Utils/Logements/logements.json'
 import ImageSlider from '../../Components/ImageSlider'
