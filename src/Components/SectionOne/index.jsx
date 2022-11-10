@@ -8,19 +8,19 @@ function SectionOne() {
       <h1 className="SectionOneTitle">Chez vous, partout et ailleurs</h1>
       <div className="SectionOneMaskGroup">
         <img
-          class="BackgroundSectionOne1"
+          className="BackgroundSectionOne1"
           src={Background}
           alt="Effet graphique de masque"
         />
 
         <img
-          class="ImgSectionOne"
+          className="ImgSectionOne"
           src={IMG}
           alt="Chez vous, partout et ailleurs"
         />
 
         <img
-          class="BackgroundSectionOne2"
+          className="BackgroundSectionOne2"
           src={Background}
           alt="Effet graphique de masque"
         />

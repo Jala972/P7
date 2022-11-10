@@ -12,7 +12,7 @@
     justify-content: space-around;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
   .GalleryContainer {
     position: relative;
     top: 25px;

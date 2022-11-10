@@ -1,0 +1,27 @@
+.FooterContainer {
+  display: block;
+  margin: auto;
+  height: 209px; /* Hauteur du pied de page */
+  width: 100%;
+  border-radius: 0px;
+  background: #000000;
+  bottom: 0; /* on le colle en bas */
+}
+
+.FooterTitle {
+  bottom: auto;
+
+  width: 100%;
+  color: red;
+}
+
+.FooterLogo {
+  height: 39.444419860839844px;
+  width: auto;
+  margin: auto;
+  border-radius: 0px;
+  position: relative;
+
+  filter: invert(50%);
+  -webkit-filter: invert(50%);
+}

@@ -9,25 +9,29 @@ function SectionAbout() {
     <div className="SectionAboutContainer">
       <div className="SectionAboutMaskGroup">
         <img
-          class="BackgroundSectionAbout1"
+          className="BackgroundSectionAbout1"
           src={Background}
           alt="Effet graphique de masque"
         />
         <img
-          class="BackgroundSectionAbout1Mobil"
+          className="BackgroundSectionAbout1Mobil"
           src={BackgroundMobil}
           alt="Effet graphique de masque"
         />
-        <img class="ImgSectionAbout" src={kalen} alt="Montagne Desktop" />
-        <img class="ImgSectionAbout2" src={gustavo} alt="Montagne Desktop" />
+        <img className="ImgSectionAbout" src={kalen} alt="Montagne Desktop" />
+        <img
+          className="ImgSectionAbout2"
+          src={gustavo}
+          alt="Montagne Desktop"
+        />
 
         <img
-          class="BackgroundSectionAbout2"
+          className="BackgroundSectionAbout2"
           src={Background}
           alt="Effet graphique de masque"
         />
         <img
-          class="BackgroundSectionAbout2Mobil"
+          className="BackgroundSectionAbout2Mobil"
           src={BackgroundMobil}
           alt="Effet graphique de masque"
         />

@@ -62,20 +62,22 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
   .SectionAboutContainer {
     width: 335px;
+    margin: auto;
     /* height: 223px;
     left: 90px;
     top: 167px; */
   }
 
   .SectionAboutMaskGroup {
-    width: 1240px;
+    width: 336px;
     height: 223px;
+
     position: relative;
     top: 60px;
-    left: 11px;
+
     /* overflow: hidden; */
   }
   .ImgSectionAbout2 {

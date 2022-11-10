@@ -21,8 +21,8 @@ function Stars() {
   }
 
   return (
-    <div class="Stars">
-      <ReactStars class="StarsClass" {...starRating} />
+    <div className="Stars">
+      <ReactStars className="StarsClass" {...starRating} />
     </div>
   )
 }

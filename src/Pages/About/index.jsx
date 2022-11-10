@@ -1,5 +1,6 @@
 import BlockAbout from '../../Components/BlockAbout'
 import SectionAbout from '../../Components/SectionAbout'
+import Footer from '../../Components/Footer'
 
 // import { Link } from 'react-router-dom'
 // import styled from 'styled-components'
@@ -13,6 +14,9 @@ function About() {
       </div>
       <div className="AboutTextContainer">
         <BlockAbout src={BlockAbout} />
+      </div>
+      <div className="AboutFooter">
+        <Footer src={Footer} />
       </div>
     </div>
   )

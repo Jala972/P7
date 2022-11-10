@@ -8,6 +8,7 @@ import '../../Utils/Style/accommodation.css'
 import '../../Utils/Style/imageSlider.css'
 import Stars from '../../Components/Rating'
 import Tags from '../../Components/Tags'
+import Footer from '../../Components/Footer'
 
 const Accommodation = () => {
   // Déclaration de la constante Id avec useParams
@@ -26,47 +27,52 @@ const Accommodation = () => {
     slides.push({ url: boucle })
   }
   return (
-    <section class="logementContainer">
-      <div class="slideshowContainer">
-        <ImageSlider slides={slides} />
-      </div>
-      <div class="titleNameContainer">
-        <div class="titleCityTagContainer">
-          <h2 className="titleLogement">{Logement.title}</h2>
-          <p className="locationLogement">{Logement.location}</p>
-          <Tags src={Tags} />
+    <section>
+      <div className="logementContainer">
+        <div className="slideshowContainer">
+          <ImageSlider slides={slides} />
         </div>
-        <div class="nameProfilStarContainer">
-          <div class="nameProfilContainer">
-            <div class="nameProfil">
-              <p class="pProfil">{Logement.host.name}</p>
+        <div className="titleNameContainer">
+          <div className="titleCityTagContainer">
+            <h2 className="titleLogement">{Logement.title}</h2>
+            <p className="locationLogement">{Logement.location}</p>
+            <Tags src={Tags} />
+          </div>
+          <div className="nameProfilStarContainer">
+            <div className="nameProfilContainer">
+              <div className="nameProfil">
+                <p className="pProfil">{Logement.host.name}</p>
+              </div>
+              <div className="imgProfilContainer">
+                <img
+                  className="imgProfil"
+                  src={Logement.host.picture}
+                  alt="Photos de Profil"
+                />
+              </div>
             </div>
-            <div class="imgProfilContainer">
-              <img
-                class="imgProfil"
-                src={Logement.host.picture}
-                alt="Photos de Profil"
-              />
+            <div className="starContainer">
+              <Stars src={Stars} />
             </div>
           </div>
-          <div class="starContainer">
-            <Stars src={Stars} />
+        </div>
+        <div className="descriptionEquipementContainer">
+          <div className="menu-deroulant">
+            <h5 className="titleSection">Description</h5>
+            <div className="sous-menu">
+              <p>{Logement.description}</p>
+            </div>
+          </div>
+          <div className="menu-deroulant">
+            <h5 className="titleSection">Equipements</h5>
+            <div className="sous-menu">
+              <p>{Logement.equipments}</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="descriptionEquipementContainer">
-        <div class="menu-deroulant">
-          <h5 class="titleSection">Description</h5>
-          <div class="sous-menu">
-            <p>{Logement.description}</p>
-          </div>
-        </div>
-        <div class="menu-deroulant">
-          <h5 class="titleSection">Equipements</h5>
-          <div class="sous-menu">
-            <p>{Logement.equipments}</p>
-          </div>
-        </div>
+      <div className="AccommodationFooter">
+        <Footer src={Footer} />
       </div>
     </section>
   )

@@ -2,14 +2,12 @@
   .TitleError {
     margin: auto;
     height: 263px;
-    width: 597px;
+    width: 1240px;
     border-radius: nullpx;
 
     position: relative;
-    left: 0px;
-    right: 0%;
-    top: 160px;
-    bottom: 0%;
+
+    top: 30px;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -18,26 +16,24 @@
     line-height: 142.6%;
 
     /* or 411px */
-    display: flex;
+
     align-items: center;
     text-align: center;
 
     color: #ff6060;
   }
+  .textErrorMobil {
+    display: none;
+  }
 
   .textError {
     margin: auto;
     height: 51px;
-    width: 872px;
-    left: 295px;
-    top: 606px;
+    width: 700px;
+    top: 100px;
     border-radius: nullpx;
-
-    position: absolute;
-    left: 20.49%;
-    right: 18.96%;
-    top: 59.18%;
-    bottom: 35.84%;
+    display: block;
+    position: relative;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -46,7 +42,7 @@
     line-height: 142.6%;
 
     /* or 51px */
-    display: flex;
+
     align-items: flex-end;
 
     color: #ff6060;
@@ -57,7 +53,7 @@
     margin: auto;
     height: 26px;
     width: 284px;
-    left: -40px;
+    left: 0px;
     top: -300px;
     border-radius: nullpx;
     position: relative;
@@ -80,5 +76,82 @@
     top: 640px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
+  .TitleError {
+    margin: auto;
+    height: 263px;
+    width: 375px;
+    border-radius: nullpx;
+
+    position: relative;
+
+    top: 70px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 142.6%;
+
+    /* or 411px */
+
+    align-items: center;
+    text-align: center;
+
+    color: #ff6060;
+  }
+
+  .textError {
+    display: none;
+  }
+  .textErrorMobil {
+    margin: auto;
+    height: 51px;
+    width: 250px;
+    top: -70px;
+
+    border-radius: nullpx;
+    display: block;
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    text-align: center;
+    /* or 51px */
+
+    align-items: flex-end;
+
+    color: #ff6060;
+  }
+
+  .linkHome {
+    width: fit-content;
+    margin: auto;
+    height: 26px;
+    width: 375px;
+    left: 100px;
+    top: -650px;
+    border-radius: nullpx;
+    position: relative;
+  }
+
+  .textLinkError {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+
+    color: #ff6060;
+    position: relative;
+    top: 640px;
+  }
 }

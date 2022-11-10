@@ -22,7 +22,7 @@ function Tags() {
 
     console.log(wordOfTagsName)
   }
-  return <p class="tagsLogement">{wordOfTags}</p>
+  return <p className="tagsLogement">{wordOfTags}</p>
 }
 
 export default Tags

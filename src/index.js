@@ -5,10 +5,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import Accommodation from './Pages/Accommodation'
 import About from './Pages/About'
-// import Apartment from './Components/Apartment'
 
 import Header from './Components/Header'
-import Footer from './Components/Footer'
 import Error from './Components/Error'
 // import Card from './Components/Card'
 
@@ -44,7 +42,7 @@ render(
       {/* you can render a "not found" route using path="*" */}
       <Route path="*" element={<Error />}></Route>
     </Routes>
-    <Footer />
+    {/* <Footer /> */}
   </BrowserRouter>,
   document.getElementById('root')
 )

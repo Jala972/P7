@@ -63,7 +63,7 @@
     color: #ff6060;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
   .HeaderContainer {
     position: relative;
     width: 335px;

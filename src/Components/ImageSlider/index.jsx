@@ -24,11 +24,11 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <div class="sliderStyles">
-      <div class="leftArrowStyles" onClick={goToPrevious}>
+    <div className="sliderStyles">
+      <div className="leftArrowStyles" onClick={goToPrevious}>
         ❰
       </div>
-      <div class="rightArrowStyles" onClick={goToNext}>
+      <div className="rightArrowStyles" onClick={goToNext}>
         ❱
       </div>
       <div style={slideStyles}></div>

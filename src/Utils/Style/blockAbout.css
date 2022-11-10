@@ -116,10 +116,15 @@
   .SectionAbout {
     margin: auto;
     width: 1440px;
-    height: 1024px;
+    height: auto;
+    position: relative;
+  }
+  .AboutFooter {
+    position: relative;
+    top: 60px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 991px) {
   .AboutTextContainer {
     position: relative;
     top: 60px;
@@ -247,6 +252,11 @@
   .SectionAbout {
     margin: auto;
     width: 335px;
-    height: 1024px;
+    height: auto;
+  }
+
+  .AboutFooter {
+    position: relative;
+    top: 80px;
   }
 }

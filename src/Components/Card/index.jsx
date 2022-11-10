@@ -10,13 +10,13 @@ function Card({
   id,
   title,
   cover,
-  // pictures,
+  pictures,
   description,
-  // hostName,
-  // hostPicture,
-  // rating,
-  // equipments,
-  // tags,
+  hostName,
+  hostPicture,
+  rating,
+  equipments,
+  tags,
 }) {
   return (
     <div className="ContainerCard">
@@ -24,7 +24,7 @@ function Card({
         <div className="CardWrapper">
           <h3 className="CardTitle">{title}</h3>
           <div className="Rectangle2"></div>
-          <img class="CardImage" src={cover} alt={description} />
+          <img className="CardImage" src={cover} alt={description} />
 
           {/* <span src={pictures} alt="Photos de l'appartement" />
       <span>{description}</span>
@@ -48,7 +48,7 @@ Card.propTypes = {
   title: PropTypes.string.isRequired,
   // pictures: PropTypes.string.isRequired,
   cover: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   // hostName: PropTypes.string.isRequired,
   // hostPicture: PropTypes.string.isRequired,
   // rating: PropTypes.string.isRequired,
