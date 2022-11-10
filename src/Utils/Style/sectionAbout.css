@@ -1,21 +1,22 @@
 @media screen and (min-width: 992px) {
   .SectionAboutContainer {
-    position: absolute;
+    /* position: initial; */
     width: 1240px;
     height: 223px;
-    left: 90px;
-    top: 167px;
+    /* left: 65px; */
+
+    margin: auto;
   }
 
   .SectionAboutMaskGroup {
     width: 1240px;
     height: 224px;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .BackgroundSectionAbout1 {
     position: relative;
-    bottom: -1px;
+    bottom: 6px;
     width: 1240px;
     height: 224px;
     background: #000000;
@@ -30,7 +31,7 @@
     position: relative;
     width: 1240px;
     height: 224px;
-    top: -227px;
+    top: -230px;
     border-radius: 25px;
     z-index: 1;
     display: block;
@@ -40,7 +41,7 @@
 
   .BackgroundSectionAbout2 {
     position: relative;
-    bottom: 455px;
+    bottom: 453px;
     width: 1240px;
     height: 223px;
     background: #000000;

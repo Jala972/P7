@@ -8,24 +8,21 @@
     margin: auto;
   }
   .SectionAboutContainer {
-    height: 1095px;
+    height: auto;
     width: 1240px;
-    top: 271px;
-    right: 130px;
+    top: 100px;
     border-radius: 25px;
     margin: auto;
-    position: absolute;
+    position: relative;
   }
 
   .AboutTextContainer {
     position: relative;
-    width: 1440px;
-    height: 1024px;
+    width: 1023px;
+    height: auto;
     border-radius: 5px;
-
     margin: auto;
-    left: 20px;
-    top: 480px;
+    top: 160px;
   }
 }
 

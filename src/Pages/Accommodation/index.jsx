@@ -56,13 +56,13 @@ const Accommodation = () => {
       </div>
       <div class="descriptionEquipementContainer">
         <div class="menu-deroulant">
-          <h5 class="titleSectionAbout">Description</h5>
+          <h5 class="titleSection">Description</h5>
           <div class="sous-menu">
             <p>{Logement.description}</p>
           </div>
         </div>
         <div class="menu-deroulant">
-          <h5 class="titleSectionAbout">Equipements</h5>
+          <h5 class="titleSection">Equipements</h5>
           <div class="sous-menu">
             <p>{Logement.equipments}</p>
           </div>

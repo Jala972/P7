@@ -1,8 +1,7 @@
 @media screen and (min-width: 992px) {
-  .menu-deroulant {
-    position: relative;
-    left: 180px;
-    margin: auto;
+  .menu-deroulantAbout {
+    /* position: relative; */
+    /* margin: auto; */
     display: inline-block;
     height: 47px;
     width: 1023px;
@@ -10,7 +9,7 @@
     background: #ff6060;
     border-radius: 5px;
   }
-  .menu-deroulant > a:after {
+  .menu-deroulantAbout > a:after {
     font-size: 15px;
     margin-left: 7px;
     display: inline-block;
@@ -23,7 +22,7 @@
     background: #ff6060;
   }
 
-  .sous-menu {
+  .sous-menuAbout {
     /* margin-top: var(--hauteur-menu); */
     width: 100%;
     text-align: left;
@@ -31,11 +30,11 @@
     border-radius: 2px;
     overflow: hidden;
     max-height: 0;
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 142.6%;
+    line-height: 142.6%; */
     position: relative;
     top: -107%;
 
@@ -44,7 +43,7 @@
     color: #ff6060;
   }
 
-  .sous-menu > li > a {
+  .sous-menuAbout > li > a {
     height: 50px;
     padding-left: 20px;
     width: 100%;
@@ -65,30 +64,27 @@
     }
   }
 
-  .menu-deroulant:hover > .sous-menu {
+  .menu-deroulantAbout:hover > .sous-menuAbout {
     animation: apparitionSousMenu 1s forwards;
   }
 
   .titleSectionAbout {
     height: 34px;
     width: 97px;
-    left: 18.075592041015625px;
-
-    border-radius: nullpx;
     position: relative;
-    top: -25px;
+    top: -30px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-
     color: #ffffff;
   }
 
   .titleSectionAbout::before {
     content: '❯';
     position: relative;
-    left: 970px;
+    left: 980px;
+    bottom: -5px;
   }
 
   .textSectionAbout {
@@ -128,7 +124,7 @@
     position: relative;
     top: 60px;
   }
-  .menu-deroulant {
+  .menu-deroulantAbout {
     position: relative;
     left: 0px;
     top: 25px;
@@ -141,7 +137,7 @@
     background: #ff6060;
     border-radius: 5px;
   }
-  .menu-deroulant > a:after {
+  .menu-deroulantAbout > a:after {
     font-size: 15px;
     margin-left: 7px;
     display: inline-block;
@@ -154,7 +150,7 @@
     background: #ff6060;
   }
 
-  .sous-menu {
+  .sous-menuAbout {
     /* margin-top: var(--hauteur-menu); */
     width: 100%;
     text-align: left;
@@ -168,14 +164,14 @@
     font-size: 24px;
     line-height: 142.6%;
     position: relative;
-    top: -107%;
+    top: -37px;
 
     /* or 34px */
 
     color: #ff6060;
   }
 
-  .sous-menu > li > a {
+  .sous-menuAbout > li > a {
     height: 50px;
     padding-left: 20px;
     width: 100%;
@@ -196,7 +192,7 @@
     }
   }
 
-  .menu-deroulant:hover > .sous-menu {
+  .menu-deroulantAbout:hover > .sous-menuAbout {
     animation: apparitionSousMenu 1s forwards;
   }
 
@@ -219,7 +215,7 @@
   .titleSectionAbout::before {
     content: '❯';
     position: relative;
-    left: 970px;
+    left: 300px;
   }
 
   .textSectionAbout {
@@ -244,7 +240,7 @@
       transform: rotate(90deg);
     }
   }
-  .menu-deroulant:hover > a:after {
+  .menu-deroulantAbout:hover > a:after {
     animation: rotationFleche 0.2s linear forwards;
   }
 
