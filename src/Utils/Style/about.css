@@ -26,7 +26,7 @@
   }
   .AboutFooter {
     position: relative;
-    bottom: 10px; /* on le colle en bas */
+    top: 200px;
     width: 100%;
     height: 100px; /* Hauteur du pied de page */
   }

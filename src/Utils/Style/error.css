@@ -29,12 +29,12 @@
   .textError {
     margin: auto;
     height: 51px;
-    width: 700px;
+    width: fit-content;
     top: 100px;
     border-radius: nullpx;
     display: block;
     position: relative;
-
+    display: block;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -67,7 +67,7 @@
     line-height: 142.6%;
 
     /* identical to box height, or 26px */
-    display: flex;
+
     align-items: flex-end;
     text-decoration-line: underline;
 

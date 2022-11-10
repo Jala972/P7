@@ -114,6 +114,7 @@
   }
 
   .SectionAbout {
+    display: block;
     margin: auto;
     width: 1440px;
     height: auto;
